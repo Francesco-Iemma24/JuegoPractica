@@ -164,7 +164,7 @@ namespace JuegoPractica
 
                 if (duelo.DueloTerminado())
                 {
-                    MessageBox.Show(duelo.resultadoFinal(), "Fin del duelo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(duelo.resultadoFinal(), "Fin del Duelo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     ReproducirSonido(duelo.resultadoFinal() + ".wav");
                 }
             }
