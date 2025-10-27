@@ -74,10 +74,9 @@
             // 
             // btnJugar
             // 
-            btnJugar.Location = new Point(1219, 1447);
-            btnJugar.Margin = new Padding(4, 5, 4, 5);
+            btnJugar.Location = new Point(853, 868);
             btnJugar.Name = "btnJugar";
-            btnJugar.Size = new Size(107, 38);
+            btnJugar.Size = new Size(75, 23);
             btnJugar.TabIndex = 0;
             btnJugar.Text = "Jugar";
             btnJugar.UseVisualStyleBackColor = true;
@@ -85,10 +84,9 @@
             // 
             // btnReiniciar
             // 
-            btnReiniciar.Location = new Point(1434, 1447);
-            btnReiniciar.Margin = new Padding(4, 5, 4, 5);
+            btnReiniciar.Location = new Point(1004, 868);
             btnReiniciar.Name = "btnReiniciar";
-            btnReiniciar.Size = new Size(107, 38);
+            btnReiniciar.Size = new Size(75, 23);
             btnReiniciar.TabIndex = 1;
             btnReiniciar.Text = "Reiniciar";
             btnReiniciar.UseVisualStyleBackColor = true;
@@ -98,10 +96,9 @@
             // 
             lblVidaJugador.AutoSize = true;
             lblVidaJugador.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblVidaJugador.Location = new Point(223, 445);
-            lblVidaJugador.Margin = new Padding(4, 0, 4, 0);
+            lblVidaJugador.Location = new Point(156, 267);
             lblVidaJugador.Name = "lblVidaJugador";
-            lblVidaJugador.Size = new Size(166, 32);
+            lblVidaJugador.Size = new Size(111, 21);
             lblVidaJugador.TabIndex = 3;
             lblVidaJugador.Text = "Vida Jugador";
             // 
@@ -109,10 +106,9 @@
             // 
             lblVidaIA.AutoSize = true;
             lblVidaIA.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblVidaIA.Location = new Point(223, 303);
-            lblVidaIA.Margin = new Padding(4, 0, 4, 0);
+            lblVidaIA.Location = new Point(156, 182);
             lblVidaIA.Name = "lblVidaIA";
-            lblVidaIA.Size = new Size(97, 32);
+            lblVidaIA.Size = new Size(65, 21);
             lblVidaIA.TabIndex = 4;
             lblVidaIA.Text = "Vida IA";
             // 
@@ -120,138 +116,123 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label1.Location = new Point(836, 772);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(585, 463);
             label1.Name = "label1";
-            label1.Size = new Size(0, 32);
+            label1.Size = new Size(0, 21);
             label1.TabIndex = 5;
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
             lblResultado.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblResultado.Location = new Point(1661, 1445);
-            lblResultado.Margin = new Padding(4, 0, 4, 0);
+            lblResultado.Location = new Point(1163, 867);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(127, 32);
+            lblResultado.Size = new Size(86, 21);
             lblResultado.TabIndex = 8;
             lblResultado.Text = "Resultado";
             // 
             // picCarta1
             // 
-            picCarta1.Location = new Point(543, 1047);
-            picCarta1.Margin = new Padding(4, 5, 4, 5);
+            picCarta1.Location = new Point(380, 628);
             picCarta1.Name = "picCarta1";
-            picCarta1.Size = new Size(350, 380);
+            picCarta1.Size = new Size(245, 228);
             picCarta1.SizeMode = PictureBoxSizeMode.Zoom;
             picCarta1.TabIndex = 13;
             picCarta1.TabStop = false;
             // 
             // picCarta2
             // 
-            picCarta2.Location = new Point(959, 1030);
-            picCarta2.Margin = new Padding(4, 5, 4, 5);
+            picCarta2.Location = new Point(671, 618);
             picCarta2.Name = "picCarta2";
-            picCarta2.Size = new Size(343, 382);
+            picCarta2.Size = new Size(240, 229);
             picCarta2.TabIndex = 14;
             picCarta2.TabStop = false;
             // 
             // picCarta3
             // 
-            picCarta3.Location = new Point(1377, 1030);
-            picCarta3.Margin = new Padding(4, 5, 4, 5);
+            picCarta3.Location = new Point(964, 618);
             picCarta3.Name = "picCarta3";
-            picCarta3.Size = new Size(359, 397);
+            picCarta3.Size = new Size(251, 238);
             picCarta3.TabIndex = 15;
             picCarta3.TabStop = false;
             // 
             // picCarta4
             // 
-            picCarta4.Location = new Point(1806, 1030);
-            picCarta4.Margin = new Padding(4, 5, 4, 5);
+            picCarta4.Location = new Point(1264, 618);
             picCarta4.Name = "picCarta4";
-            picCarta4.Size = new Size(354, 397);
+            picCarta4.Size = new Size(248, 238);
             picCarta4.TabIndex = 16;
             picCarta4.TabStop = false;
             // 
             // pictCampoIA1
             // 
-            pictCampoIA1.Location = new Point(543, 150);
-            pictCampoIA1.Margin = new Padding(4, 5, 4, 5);
+            pictCampoIA1.Location = new Point(380, 90);
             pictCampoIA1.Name = "pictCampoIA1";
-            pictCampoIA1.Size = new Size(336, 380);
+            pictCampoIA1.Size = new Size(235, 228);
             pictCampoIA1.TabIndex = 17;
             pictCampoIA1.TabStop = false;
             // 
             // pictCampoIA4
             // 
-            pictCampoIA4.Location = new Point(1806, 150);
-            pictCampoIA4.Margin = new Padding(4, 5, 4, 5);
+            pictCampoIA4.Location = new Point(1264, 90);
             pictCampoIA4.Name = "pictCampoIA4";
-            pictCampoIA4.Size = new Size(354, 380);
+            pictCampoIA4.Size = new Size(248, 228);
             pictCampoIA4.TabIndex = 19;
             pictCampoIA4.TabStop = false;
             // 
             // pictCampoIA3
             // 
-            pictCampoIA3.Location = new Point(1377, 150);
-            pictCampoIA3.Margin = new Padding(4, 5, 4, 5);
+            pictCampoIA3.Location = new Point(964, 90);
             pictCampoIA3.Name = "pictCampoIA3";
-            pictCampoIA3.Size = new Size(359, 380);
+            pictCampoIA3.Size = new Size(251, 228);
             pictCampoIA3.TabIndex = 20;
             pictCampoIA3.TabStop = false;
             // 
             // pictCampoIA2
             // 
-            pictCampoIA2.Location = new Point(959, 150);
-            pictCampoIA2.Margin = new Padding(4, 5, 4, 5);
+            pictCampoIA2.Location = new Point(671, 90);
             pictCampoIA2.Name = "pictCampoIA2";
-            pictCampoIA2.Size = new Size(343, 380);
+            pictCampoIA2.Size = new Size(240, 228);
             pictCampoIA2.TabIndex = 21;
             pictCampoIA2.TabStop = false;
             // 
             // picCampoJ2
             // 
-            picCampoJ2.Location = new Point(979, 610);
-            picCampoJ2.Margin = new Padding(4, 5, 4, 5);
+            picCampoJ2.Location = new Point(685, 366);
             picCampoJ2.Name = "picCampoJ2";
-            picCampoJ2.Size = new Size(323, 350);
+            picCampoJ2.Size = new Size(226, 210);
             picCampoJ2.TabIndex = 25;
             picCampoJ2.TabStop = false;
             // 
             // picCampoJ3
             // 
-            picCampoJ3.Location = new Point(1394, 610);
-            picCampoJ3.Margin = new Padding(4, 5, 4, 5);
+            picCampoJ3.Location = new Point(976, 366);
             picCampoJ3.Name = "picCampoJ3";
-            picCampoJ3.Size = new Size(323, 350);
+            picCampoJ3.Size = new Size(226, 210);
             picCampoJ3.TabIndex = 24;
             picCampoJ3.TabStop = false;
             // 
             // picCampoJ4
             // 
-            picCampoJ4.Location = new Point(1824, 610);
-            picCampoJ4.Margin = new Padding(4, 5, 4, 5);
+            picCampoJ4.Location = new Point(1277, 366);
             picCampoJ4.Name = "picCampoJ4";
-            picCampoJ4.Size = new Size(323, 350);
+            picCampoJ4.Size = new Size(226, 210);
             picCampoJ4.TabIndex = 23;
             picCampoJ4.TabStop = false;
             // 
             // picCampoJ1
             // 
-            picCampoJ1.Location = new Point(556, 610);
-            picCampoJ1.Margin = new Padding(4, 5, 4, 5);
+            picCampoJ1.Location = new Point(389, 366);
             picCampoJ1.Name = "picCampoJ1";
-            picCampoJ1.Size = new Size(323, 350);
+            picCampoJ1.Size = new Size(226, 210);
             picCampoJ1.TabIndex = 22;
             picCampoJ1.TabStop = false;
             // 
             // picCarta5
             // 
-            picCarta5.Location = new Point(2233, 1030);
-            picCarta5.Margin = new Padding(4, 5, 4, 5);
+            picCarta5.Location = new Point(1563, 618);
             picCarta5.Name = "picCarta5";
-            picCarta5.Size = new Size(323, 382);
+            picCarta5.Size = new Size(226, 229);
             picCarta5.TabIndex = 26;
             picCarta5.TabStop = false;
             // 
@@ -279,20 +260,18 @@
             panel1.Controls.Add(pictCampoIA1);
             panel1.Controls.Add(picCarta4);
             panel1.Controls.Add(picCampoDiseño);
-            panel1.Location = new Point(17, 20);
-            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(2959, 1558);
+            panel1.Size = new Size(2071, 935);
             panel1.TabIndex = 27;
             // 
             // picFuego
             // 
             picFuego.BackColor = Color.Transparent;
             picFuego.Image = Properties.Resources.fuego;
-            picFuego.Location = new Point(223, 1047);
-            picFuego.Margin = new Padding(4, 5, 4, 5);
+            picFuego.Location = new Point(156, 628);
             picFuego.Name = "picFuego";
-            picFuego.Size = new Size(214, 250);
+            picFuego.Size = new Size(150, 150);
             picFuego.SizeMode = PictureBoxSizeMode.StretchImage;
             picFuego.TabIndex = 28;
             picFuego.TabStop = false;
@@ -301,19 +280,17 @@
             // 
             // picCampoJ5
             // 
-            picCampoJ5.Location = new Point(2233, 610);
-            picCampoJ5.Margin = new Padding(4, 5, 4, 5);
+            picCampoJ5.Location = new Point(1563, 366);
             picCampoJ5.Name = "picCampoJ5";
-            picCampoJ5.Size = new Size(323, 350);
+            picCampoJ5.Size = new Size(226, 210);
             picCampoJ5.TabIndex = 29;
             picCampoJ5.TabStop = false;
             // 
             // pictCampoIA5
             // 
-            pictCampoIA5.Location = new Point(2233, 150);
-            pictCampoIA5.Margin = new Padding(4, 5, 4, 5);
+            pictCampoIA5.Location = new Point(1563, 90);
             pictCampoIA5.Name = "pictCampoIA5";
-            pictCampoIA5.Size = new Size(323, 380);
+            pictCampoIA5.Size = new Size(226, 228);
             pictCampoIA5.TabIndex = 28;
             pictCampoIA5.TabStop = false;
             // 
@@ -322,22 +299,21 @@
             picCampoDiseño.Dock = DockStyle.Fill;
             picCampoDiseño.Image = Properties.Resources.CampoDuelo;
             picCampoDiseño.Location = new Point(0, 0);
-            picCampoDiseño.Margin = new Padding(4, 5, 4, 5);
             picCampoDiseño.Name = "picCampoDiseño";
-            picCampoDiseño.Size = new Size(2959, 1558);
+            picCampoDiseño.Size = new Size(2071, 935);
             picCampoDiseño.SizeMode = PictureBoxSizeMode.StretchImage;
             picCampoDiseño.TabIndex = 27;
             picCampoDiseño.TabStop = false;
+            picCampoDiseño.Click += picCampoDiseño_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(3039, 1527);
+            ClientSize = new Size(1795, 853);
             Controls.Add(panel1);
             Controls.Add(label1);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "YugiohBajoPresupuesto";
             Load += Form1_Load;

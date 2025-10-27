@@ -40,7 +40,7 @@ namespace JuegoPractica
                 pic.MouseEnter += (s, e) => pic.BorderStyle = BorderStyle.Fixed3D;
                 pic.MouseLeave += (s, e) => pic.BorderStyle = BorderStyle.FixedSingle;
             }
-        
+
 
 
 
@@ -85,7 +85,7 @@ namespace JuegoPractica
                 new Carta("Guardian de la Reja",3750,3400,"Imagenes/GateGuardian.jpg"),
                 new Carta("Caballero Amo Del Dragon",5000,5000,"Imagenes/DragonDefinitivo.jpg"),
                 new Carta("Maga Oscura Jinete de Dragon",2600,2100,"Imagenes/MagaOscuraJinete.png"),
-                new Carta("Convoca al Craneo",2500,2000,"Imagenes/CraneoInvocado.jgp")
+                new Carta("Convoca al Craneo",2500,2000,"Imagenes/CraneoInvocado.jpg")
 
             }.OrderBy(c => random.Next()).ToList();
 
@@ -135,26 +135,26 @@ namespace JuegoPractica
                 {
                     ubicacionFuego = ubicacionIA;
                 }
-                  
+
                 else if (duelo.campo.slotsJugador[slotJ] == null)
                 {
                     ubicacionFuego = ubicacionJugador;
                 }
                 else if (duelo.campo.slotsJugador[slotJ] == null && duelo.campo.slotsIA[slotIA] == null)
                 {
-                    ubicacionFuego = ubicacionIA; 
+                    ubicacionFuego = ubicacionIA;
                 }
 
-               
+
                 if (ubicacionFuego != Point.Empty)
                 {
-                 
+
                     int offsetX = (picIA.Width - picFuego.Width) / 2;
                     int offsetY = (picIA.Height - picFuego.Height) / 2;
 
                     ubicacionFuego.Offset(offsetX, offsetY);
 
-                    
+
                     await mostrarFuego(ubicacionFuego);
                 }
                 cartaSeleccionadaJugador = null;
@@ -315,6 +315,11 @@ namespace JuegoPractica
         }
 
         private void picFuego_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picCampoDiseño_Click(object sender, EventArgs e)
         {
 
         }
